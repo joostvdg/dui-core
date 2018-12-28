@@ -1,0 +1,12 @@
+
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    implementation 'com.github.joostvdg.dui:dui-api:1.0.5'
+    implementation 'com.github.joostvdg.dui:dui-lib-logging:1.0.1'
+    testImplementation 'junit:junit:4.12'
+}
+
+ext.moduleName = 'com.github.joostvdg.dui.client'
